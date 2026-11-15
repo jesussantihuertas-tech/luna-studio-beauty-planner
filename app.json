@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Luna Studio Beauty Planner",
+    "slug": "luna-studio-beauty-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "fatimabeautyplanner",
+    "splash": {
+      "backgroundColor": "#fff6fa"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lunastudio.beautyplanner"
+    },
+    "android": {
+      "package": "com.lunastudio.beautyplanner",
+      "adaptiveIcon": {
+        "backgroundColor": "#f7d9e8"
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "defaultChannel": "citas",
+          "color": "#b65d86"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REEMPLAZAR_CON_PROJECT_ID_DE_EAS"
+      }
+    }
+  }
+}
