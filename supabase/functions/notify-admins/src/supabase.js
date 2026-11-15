@@ -1,9 +1,6 @@
-
 import { createClient } from '@supabase/supabase-js';
 
-const url = process.env.EXPO_PUBLIC_SUPABASE_URL;
-const anonKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY;
+const url = 'https://rvfjilocipalgnxgaimx.supabase.co/rest/v1/';
+const anonKey = 'sb_publishable_O-8S4AUmvLFSQKEGxBJGUg_Z0JuVTyU';
 
-export const supabase = url && anonKey
-  ? createClient(url, anonKey)
-  : null;
+export const supabase = createClient(url, anonKey);
